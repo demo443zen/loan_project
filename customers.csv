@@ -1,0 +1,801 @@
+customer_id,age,gender,city,state,employment_type,monthly_income,customer_segment
+C100000,41.0,Female,Pune,Maharashtra,Salaried,64700.0,Mass Affluent
+C100001,27.0,Female,Pune,Maharashtra,Contract,47700.0,Mass
+C100002,27.0,Male,Ahmedabad,Gujarat,Salaried,42800.0,SME
+C100003,31.0,Male,Dwarka,Delhi,Self-employed,89700.0,Mass Affluent
+C100004,32.0,Female,Hyderabad,Telangana,Salaried,28400.0,Affluent
+C100005,36.0,Male,Hyderabad,Telangana,Self-employed,77700.0,Mass
+C100006,42.0,Male,Hyderabad,Telangana,Salaried,32500.0,Mass
+C100007,40.0,Female,Mumbai,Maharashtra,Salaried,54400.0,Mass
+C100008,48.0,Female,Dwarka,Delhi,Salaried,88000.0,Mass
+C100009,24.0,Female,Mysuru,Karnataka,Self-employed,69800.0,Mass Affluent
+C100010,40.0,Male,Chennai,Tamil Nadu,Self-employed,63200.0,Mass Affluent
+C100011,40.0,Female,Kolkata,West Bengal,Business Owner,141900.0,Affluent
+C100012,54.0,Male,Dwarka,Delhi,Salaried,56400.0,Mass
+C100013,36.0,Male,Pune,Maharashtra,Salaried,52900.0,Mass Affluent
+C100014,41.0,Male,Dwarka,Delhi,Salaried,53300.0,Mass Affluent
+C100015,30.0,Female,Pune,Maharashtra,Salaried,125500.0,Mass
+C100016,42.0,Female,Surat,Gujarat,Self-employed,105400.0,Mass
+C100017,42.0,Female,Siliguri,West Bengal,Salaried,78800.0,Mass
+C100018,32.0,Female,Siliguri,West Bengal,Salaried,37200.0,Mass
+C100019,34.0,Male,Hyderabad,Telangana,Salaried,83800.0,Mass
+C100020,38.0,Male,Kolkata,West Bengal,Self-employed,43600.0,Mass
+C100021,44.0,Female,Chennai,Tamil Nadu,Salaried,78700.0,SME
+C100022,26.0,Male,Bengaluru,Karnataka,Self-employed,47200.0,Mass Affluent
+C100023,47.0,Male,Dwarka,Delhi,Business Owner,269900.0,Mass
+C100024,35.0,Female,Dwarka,Delhi,Self-employed,36500.0,Mass Affluent
+C100025,57.0,Male,Hyderabad,Telangana,Salaried,109700.0,Mass Affluent
+C100026,53.0,Female,Siliguri,West Bengal,Salaried,90800.0,Affluent
+C100027,34.0,Female,Mysuru,Karnataka,Contract,21000.0,Mass
+C100028,32.0,Female,Ahmedabad,Gujarat,Salaried,56800.0,Mass
+C100029,63.0,Female,Mumbai,Maharashtra,Self-employed,149100.0,Mass Affluent
+C100030,44.0,Male,Chennai,Tamil Nadu,Salaried,105500.0,Mass Affluent
+C100031,44.0,Male,Ahmedabad,Gujarat,Self-employed,36900.0,Mass
+C100032,34.0,Male,Bengaluru,Karnataka,Salaried,50000.0,Affluent
+C100033,37.0,Male,Warangal,Telangana,Salaried,37300.0,Mass
+C100034,46.0,Female,Dwarka,Delhi,Self-employed,49100.0,Mass Affluent
+C100035,44.0,Female,Dwarka,Delhi,Salaried,47400.0,Mass Affluent
+C100036,30.0,Male,Siliguri,West Bengal,Contract,106900.0,Mass Affluent
+C100037,51.0,Female,Surat,Gujarat,Business Owner,118700.0,Mass
+C100038,41.0,Female,Ahmedabad,Gujarat,Salaried,57100.0,Affluent
+C100039,28.0,Female,New Delhi,Delhi,Self-employed,66900.0,Mass Affluent
+C100040,48.0,Female,Siliguri,West Bengal,Self-employed,104900.0,Mass Affluent
+C100041,36.0,Female,Siliguri,West Bengal,Retired,55700.0,Affluent
+C100042,46.0,Male,Mumbai,Maharashtra,Salaried,41800.0,SME
+C100043,32.0,Male,Mysuru,Karnataka,Salaried,122200.0,Mass Affluent
+C100044,42.0,Female,Chennai,Tamil Nadu,Salaried,38800.0,Mass
+C100045,22.0,Male,New Delhi,Delhi,Business Owner,98600.0,Affluent
+C100046,42.0,Female,Ahmedabad,Gujarat,Business Owner,136800.0,SME
+C100047,23.0,Female,Dwarka,Delhi,Salaried,136300.0,Affluent
+C100048,40.0,Male,Siliguri,West Bengal,Salaried,54000.0,Mass
+C100049,21.0,Female,Coimbatore,Tamil Nadu,Self-employed,,Affluent
+C100050,37.0,Female,Kolkata,West Bengal,Salaried,113400.0,Mass Affluent
+C100051,45.0,Male,Warangal,Telangana,Salaried,83600.0,Mass Affluent
+C100052,43.0,Female,Surat,Gujarat,Self-employed,129000.0,Mass
+C100053,50.0,Male,Bengaluru,Karnataka,Salaried,100700.0,Mass
+C100054,27.0,Female,Warangal,Telangana,Salaried,71000.0,Affluent
+C100055,54.0,Female,Surat,Gujarat,Salaried,83800.0,Mass
+C100056,54.0,Male,Siliguri,West Bengal,Self-employed,117400.0,Mass Affluent
+C100057,26.0,Female,Kolkata,West Bengal,Salaried,62300.0,Mass Affluent
+C100058,30.0,Female,Kolkata,West Bengal,Salaried,129600.0,Mass
+C100059,32.0,Female,Pune,Maharashtra,Contract,19100.0,Mass Affluent
+C100060,38.0,Female,Surat,Gujarat,Salaried,41700.0,Mass
+C100061,40.0,Female,Dwarka,Delhi,Salaried,120900.0,Affluent
+C100062,21.0,Female,Hyderabad,Telangana,Self-employed,94200.0,Mass Affluent
+C100063,44.0,Female,Mysuru,Karnataka,Contract,34900.0,Mass
+C100064,35.0,Male,Pune,Maharashtra,Contract,55300.0,Mass
+C100065,28.0,Female,Mumbai,Maharashtra,Self-employed,,Affluent
+C100066,48.0,Female,Kolkata,West Bengal,Contract,36300.0,Affluent
+C100067,34.0,Male,Siliguri,West Bengal,Business Owner,,Affluent
+C100068,49.0,Male,Chennai,Tamil Nadu,Business Owner,105700.0,Mass Affluent
+C100069,43.0,Male,New Delhi,Delhi,Salaried,60000.0,Mass
+C100070,35.0,Male,Mysuru,Karnataka,Salaried,61200.0,Mass
+C100071,50.0,Male,Mysuru,Karnataka,Business Owner,184200.0,Mass
+C100072,46.0,Female,Kolkata,West Bengal,Self-employed,47000.0,Mass
+C100073,33.0,Female,Hyderabad,Telangana,Retired,34600.0,Mass
+C100074,22.0,Male,Pune,Maharashtra,Salaried,85100.0,Mass
+C100075,32.0,Male,Bengaluru,Karnataka,Contract,27000.0,Mass
+C100076,44.0,Female,Dwarka,Delhi,Salaried,31000.0,Mass
+C100077,36.0,Female,Kolkata,West Bengal,Contract,60300.0,Mass
+C100078,56.0,Female,Siliguri,West Bengal,Retired,40800.0,Mass
+C100079,41.0,Male,Bengaluru,Karnataka,Salaried,59100.0,SME
+C100080,40.0,Male,Warangal,Telangana,Salaried,67300.0,SME
+C100081,42.0,Female,Pune,Maharashtra,Retired,26400.0,Mass
+C100082,29.0,Male,Bengaluru,Karnataka,Retired,151400.0,Mass Affluent
+C100083,37.0,Female,Bengaluru,Karnataka,Self-employed,49900.0,Mass
+C100084,31.0,Female,New Delhi,Delhi,Salaried,51900.0,Mass Affluent
+C100085,21.0,Female,Coimbatore,Tamil Nadu,Salaried,33300.0,Mass Affluent
+C100086,21.0,Male,Ahmedabad,Gujarat,Salaried,52400.0,Mass Affluent
+C100087,45.0,Male,Dwarka,Delhi,Contract,92700.0,Mass
+C100088,33.0,Male,Chennai,Tamil Nadu,Business Owner,112700.0,Mass Affluent
+C100089,37.0,Male,Siliguri,West Bengal,Salaried,82600.0,Mass
+C100090,23.0,Male,Warangal,Telangana,Business Owner,89900.0,Mass Affluent
+C100091,32.0,Male,Hyderabad,Telangana,Contract,105500.0,Affluent
+C100092,46.0,Female,Surat,Gujarat,Salaried,68000.0,Mass
+C100093,39.0,Female,Coimbatore,Tamil Nadu,Contract,26600.0,SME
+C100094,33.0,Male,Siliguri,West Bengal,Salaried,89300.0,Mass
+C100095,53.0,Female,Pune,Maharashtra,Salaried,53500.0,Affluent
+C100096,37.0,Male,Coimbatore,Tamil Nadu,Salaried,83000.0,SME
+C100097,34.0,Male,Mysuru,Karnataka,Salaried,67300.0,Mass Affluent
+C100098,49.0,Male,Pune,Maharashtra,Self-employed,87500.0,Affluent
+C100099,21.0,Female,Siliguri,West Bengal,Salaried,67200.0,Mass Affluent
+C100100,44.0,Male,Mumbai,Maharashtra,Self-employed,51700.0,Mass
+C100101,27.0,Male,Dwarka,Delhi,Salaried,,Mass Affluent
+C100102,30.0,Female,Surat,Gujarat,Business Owner,173400.0,Mass
+C100103,31.0,Female,Hyderabad,Telangana,Salaried,59400.0,Mass
+C100104,39.0,Female,Surat,Gujarat,Salaried,71800.0,Affluent
+C100105,39.0,Female,Pune,Maharashtra,Salaried,51300.0,Mass
+C100106,41.0,Female,New Delhi,Delhi,Self-employed,31300.0,SME
+C100107,40.0,Female,Mumbai,Maharashtra,Business Owner,62900.0,Mass
+C100108,52.0,Female,Mysuru,Karnataka,Business Owner,209400.0,Mass
+C100109,55.0,Female,Ahmedabad,Gujarat,Business Owner,78500.0,Affluent
+C100110,45.0,Female,Mumbai,Maharashtra,Business Owner,94000.0,Affluent
+C100111,46.0,Female,Warangal,Telangana,Self-employed,40200.0,Mass
+C100112,34.0,Male,Mumbai,Maharashtra,Salaried,49800.0,Mass Affluent
+C100113,27.0,Male,Chennai,Tamil Nadu,Salaried,53400.0,SME
+C100114,44.0,Female,Siliguri,West Bengal,Contract,42200.0,Mass
+C100115,38.0,Female,Coimbatore,Tamil Nadu,Salaried,61100.0,Mass
+C100116,47.0,Male,Coimbatore,Tamil Nadu,Self-employed,58500.0,Mass
+C100117,21.0,Male,Mumbai,Maharashtra,Salaried,48700.0,Mass Affluent
+C100118,65.0,Female,Ahmedabad,Gujarat,Salaried,62700.0,Mass Affluent
+C100119,25.0,Female,Mysuru,Karnataka,Salaried,72900.0,Mass
+C100120,38.0,Male,Dwarka,Delhi,Salaried,59200.0,Mass Affluent
+C100121,48.0,Female,Pune,Maharashtra,Business Owner,244400.0,Mass
+C100122,24.0,Male,Pune,Maharashtra,Salaried,69200.0,Mass Affluent
+C100123,32.0,Male,Surat,Gujarat,Business Owner,119900.0,Mass Affluent
+C100124,21.0,Male,Mumbai,Maharashtra,Salaried,46900.0,Mass Affluent
+C100125,24.0,Male,Dwarka,Delhi,Salaried,100100.0,Mass Affluent
+C100126,21.0,Female,Chennai,Tamil Nadu,Salaried,39800.0,Mass
+C100127,39.0,Female,Mumbai,Maharashtra,Self-employed,37400.0,Mass Affluent
+C100128,41.0,Male,Warangal,Telangana,Salaried,40600.0,Mass
+C100129,35.0,Female,Ahmedabad,Gujarat,Business Owner,147300.0,Affluent
+C100130,51.0,Female,Kolkata,West Bengal,Contract,27800.0,Mass
+C100131,52.0,Male,Bengaluru,Karnataka,Business Owner,199500.0,Affluent
+C100132,38.0,Male,Kolkata,West Bengal,Salaried,62300.0,Mass Affluent
+C100133,36.0,Female,Mumbai,Maharashtra,Self-employed,39200.0,Mass Affluent
+C100134,35.0,Male,Mumbai,Maharashtra,Salaried,56800.0,Mass Affluent
+C100135,33.0,Female,Hyderabad,Telangana,Self-employed,172900.0,Mass Affluent
+C100136,51.0,Female,Kolkata,West Bengal,Salaried,42800.0,Mass
+C100137,40.0,Female,Kolkata,West Bengal,Business Owner,61800.0,Mass Affluent
+C100138,35.0,Female,Surat,Gujarat,Salaried,79300.0,Mass Affluent
+C100139,36.0,Female,Mumbai,Maharashtra,Contract,83700.0,Affluent
+C100140,43.0,Female,Chennai,Tamil Nadu,Salaried,99400.0,Mass
+C100141,34.0,Female,Surat,Gujarat,Salaried,54300.0,Affluent
+C100142,41.0,Female,New Delhi,Delhi,Self-employed,84300.0,Mass
+C100143,38.0,Male,Bengaluru,Karnataka,Contract,53800.0,Affluent
+C100144,52.0,Female,Warangal,Telangana,Business Owner,188900.0,Affluent
+C100145,50.0,Female,Pune,Maharashtra,Salaried,165500.0,Mass
+C100146,24.0,Female,Hyderabad,Telangana,Salaried,60000.0,SME
+C100147,36.0,Male,Mumbai,Maharashtra,Business Owner,199800.0,Affluent
+C100148,45.0,Female,Chennai,Tamil Nadu,Salaried,53900.0,Mass Affluent
+C100149,33.0,Female,Coimbatore,Tamil Nadu,Salaried,82000.0,Mass
+C100150,46.0,Female,Kolkata,West Bengal,Contract,30500.0,Affluent
+C100151,41.0,Female,Surat,Gujarat,Contract,,Mass Affluent
+C100152,44.0,Female,Hyderabad,Telangana,Salaried,75900.0,Mass
+C100153,37.0,Female,New Delhi,Delhi,Self-employed,51700.0,Mass Affluent
+C100154,41.0,Male,Chennai,Tamil Nadu,Contract,69300.0,Mass
+C100155,43.0,Male,Surat,Gujarat,Salaried,49100.0,Mass Affluent
+C100156,23.0,Female,Kolkata,West Bengal,Contract,48100.0,Mass
+C100157,29.0,Female,Bengaluru,Karnataka,Contract,44800.0,Mass
+C100158,28.0,Male,Bengaluru,Karnataka,Business Owner,95800.0,Mass
+C100159,55.0,Female,Chennai,Tamil Nadu,Business Owner,118100.0,Mass
+C100160,41.0,Male,New Delhi,Delhi,Business Owner,181000.0,Mass Affluent
+C100161,42.0,Female,Bengaluru,Karnataka,Self-employed,,Mass Affluent
+C100162,40.0,Male,Coimbatore,Tamil Nadu,Self-employed,45400.0,Mass
+C100163,33.0,Female,Kolkata,West Bengal,Salaried,72000.0,Mass
+C100164,31.0,Female,Coimbatore,Tamil Nadu,Self-employed,71600.0,Mass
+C100165,47.0,Female,Kolkata,West Bengal,Self-employed,51400.0,Mass
+C100166,34.0,Female,Dwarka,Delhi,Self-employed,88100.0,Affluent
+C100167,54.0,Male,Coimbatore,Tamil Nadu,Self-employed,52200.0,SME
+C100168,40.0,Male,Kolkata,West Bengal,Salaried,60800.0,SME
+C100169,39.0,Male,New Delhi,Delhi,Business Owner,194500.0,Mass
+C100170,36.0,Female,Surat,Gujarat,Business Owner,44800.0,Mass
+C100171,37.0,Male,Chennai,Tamil Nadu,Salaried,70400.0,Mass
+C100172,38.0,Female,Kolkata,West Bengal,Business Owner,136100.0,Mass Affluent
+C100173,53.0,Female,Surat,Gujarat,Salaried,40900.0,Mass
+C100174,62.0,Male,Kolkata,West Bengal,Salaried,79700.0,Mass
+C100175,26.0,Female,Mumbai,Maharashtra,Salaried,73700.0,Affluent
+C100176,41.0,Male,Mumbai,Maharashtra,Salaried,53800.0,SME
+C100177,45.0,Male,Mumbai,Maharashtra,Self-employed,133700.0,Mass Affluent
+C100178,29.0,Female,Dwarka,Delhi,Salaried,34900.0,Affluent
+C100179,32.0,Male,Chennai,Tamil Nadu,Salaried,84100.0,Mass Affluent
+C100180,33.0,Male,Kolkata,West Bengal,Business Owner,100200.0,Affluent
+C100181,21.0,Male,Mysuru,Karnataka,Salaried,39100.0,Mass Affluent
+C100182,45.0,Male,Mysuru,Karnataka,Contract,42900.0,SME
+C100183,38.0,Female,Surat,Gujarat,Salaried,53800.0,Mass
+C100184,37.0,Male,Chennai,Tamil Nadu,Business Owner,161000.0,Mass
+C100185,39.0,Female,Surat,Gujarat,Salaried,32100.0,Mass Affluent
+C100186,41.0,Female,Chennai,Tamil Nadu,Contract,42600.0,Mass
+C100187,61.0,Female,Dwarka,Delhi,Self-employed,63100.0,Affluent
+C100188,40.0,Male,Mumbai,Maharashtra,Self-employed,157200.0,Affluent
+C100189,46.0,Male,Hyderabad,Telangana,Salaried,,Affluent
+C100190,33.0,Male,Siliguri,West Bengal,Business Owner,179300.0,Affluent
+C100191,42.0,Female,Warangal,Telangana,Salaried,,Mass Affluent
+C100192,35.0,Female,Kolkata,West Bengal,Business Owner,129900.0,Mass
+C100193,37.0,Female,Ahmedabad,Gujarat,Contract,43700.0,Mass
+C100194,29.0,Male,Dwarka,Delhi,Salaried,74500.0,Mass
+C100195,30.0,Female,Siliguri,West Bengal,Salaried,45800.0,Mass
+C100196,43.0,Male,Dwarka,Delhi,Business Owner,46200.0,Mass Affluent
+C100197,46.0,Male,Mysuru,Karnataka,Retired,20200.0,Mass Affluent
+C100198,43.0,Female,Dwarka,Delhi,Contract,83700.0,Mass Affluent
+C100199,31.0,Male,Warangal,Telangana,Salaried,69000.0,Mass
+C100200,41.0,Male,Bengaluru,Karnataka,Contract,31400.0,SME
+C100201,21.0,Male,Bengaluru,Karnataka,Salaried,94000.0,Mass Affluent
+C100202,48.0,Female,Hyderabad,Telangana,Salaried,44800.0,Mass
+C100203,38.0,Male,New Delhi,Delhi,Self-employed,55300.0,SME
+C100204,41.0,Male,New Delhi,Delhi,Self-employed,44600.0,Mass Affluent
+C100205,50.0,Female,Ahmedabad,Gujarat,Business Owner,188100.0,Mass Affluent
+C100206,34.0,Male,Hyderabad,Telangana,Salaried,151300.0,Mass Affluent
+C100207,48.0,Male,Kolkata,West Bengal,Salaried,40500.0,Mass
+C100208,34.0,Female,Mysuru,Karnataka,Retired,46000.0,Mass Affluent
+C100209,44.0,Female,Surat,Gujarat,Salaried,97100.0,Affluent
+C100210,34.0,Female,New Delhi,Delhi,Salaried,161900.0,Mass Affluent
+C100211,41.0,Male,Pune,Maharashtra,Self-employed,26100.0,Mass
+C100212,53.0,Male,Pune,Maharashtra,Retired,43000.0,Mass Affluent
+C100213,32.0,Female,Coimbatore,Tamil Nadu,Salaried,83500.0,Affluent
+C100214,32.0,Female,Warangal,Telangana,Business Owner,56700.0,Affluent
+C100215,35.0,Female,Mysuru,Karnataka,Salaried,75000.0,Mass
+C100216,41.0,Male,New Delhi,Delhi,Salaried,68200.0,Mass Affluent
+C100217,66.0,Female,Siliguri,West Bengal,Salaried,86300.0,Mass
+C100218,32.0,Male,Mumbai,Maharashtra,Salaried,48000.0,Mass
+C100219,21.0,Female,Bengaluru,Karnataka,Self-employed,92600.0,Mass
+C100220,32.0,Female,Siliguri,West Bengal,Salaried,47500.0,Mass
+C100221,22.0,Female,Mysuru,Karnataka,Self-employed,100700.0,Mass
+C100222,33.0,Male,Kolkata,West Bengal,Self-employed,82300.0,Affluent
+C100223,38.0,Male,Chennai,Tamil Nadu,Contract,38800.0,Mass
+C100224,29.0,Male,Surat,Gujarat,Self-employed,40500.0,Mass
+C100225,31.0,Female,Mumbai,Maharashtra,Salaried,130700.0,Mass
+C100226,21.0,Female,Hyderabad,Telangana,Retired,66300.0,Mass Affluent
+C100227,40.0,Female,Siliguri,West Bengal,Salaried,92500.0,Mass
+C100228,31.0,Female,Chennai,Tamil Nadu,Salaried,46200.0,Mass Affluent
+C100229,49.0,Male,Warangal,Telangana,Contract,39300.0,Mass
+C100230,49.0,Male,Bengaluru,Karnataka,Salaried,132000.0,Mass Affluent
+C100231,30.0,Female,Mysuru,Karnataka,Salaried,87100.0,Mass
+C100232,35.0,Female,Pune,Maharashtra,Salaried,42400.0,Mass
+C100233,39.0,Female,Dwarka,Delhi,Salaried,63600.0,Mass
+C100234,46.0,Male,Dwarka,Delhi,Salaried,66400.0,Mass
+C100235,22.0,Male,Mumbai,Maharashtra,Contract,42100.0,Affluent
+C100236,38.0,Female,Mysuru,Karnataka,Salaried,40800.0,Mass
+C100237,57.0,Male,Warangal,Telangana,Salaried,109600.0,Affluent
+C100238,37.0,Female,Coimbatore,Tamil Nadu,Salaried,81300.0,Mass
+C100239,41.0,Male,Mysuru,Karnataka,Contract,42100.0,Mass Affluent
+C100240,38.0,Male,Pune,Maharashtra,Salaried,30700.0,Affluent
+C100241,26.0,Male,Pune,Maharashtra,Salaried,48000.0,Mass
+C100242,48.0,Male,Warangal,Telangana,Business Owner,110200.0,Mass
+C100243,41.0,Male,Pune,Maharashtra,Contract,68200.0,Mass
+C100244,40.0,Female,Ahmedabad,Gujarat,Self-employed,65100.0,Mass Affluent
+C100245,46.0,Male,Dwarka,Delhi,Business Owner,182100.0,Affluent
+C100246,46.0,Female,Mysuru,Karnataka,Salaried,66600.0,Mass Affluent
+C100247,21.0,Female,Warangal,Telangana,Salaried,44800.0,Mass
+C100248,43.0,Female,Bengaluru,Karnataka,Self-employed,21900.0,SME
+C100249,33.0,Male,Chennai,Tamil Nadu,Salaried,36900.0,Mass Affluent
+C100250,40.0,Female,New Delhi,Delhi,Salaried,32000.0,Affluent
+C100251,31.0,Male,Warangal,Telangana,Salaried,58500.0,Affluent
+C100252,30.0,Male,Mumbai,Maharashtra,Salaried,72800.0,Affluent
+C100253,48.0,Male,Chennai,Tamil Nadu,Contract,86600.0,Affluent
+C100254,38.0,Female,Mumbai,Maharashtra,Business Owner,110300.0,Mass
+C100255,36.0,Male,Pune,Maharashtra,Salaried,37300.0,Affluent
+C100256,36.0,Male,Bengaluru,Karnataka,Salaried,180900.0,Mass Affluent
+C100257,39.0,Male,Chennai,Tamil Nadu,Business Owner,127800.0,Mass
+C100258,38.0,Female,Kolkata,West Bengal,Contract,41200.0,Affluent
+C100259,21.0,Male,Coimbatore,Tamil Nadu,Self-employed,68700.0,Mass
+C100260,30.0,Male,Mumbai,Maharashtra,Business Owner,60500.0,Mass Affluent
+C100261,36.0,Female,Siliguri,West Bengal,Salaried,83700.0,Affluent
+C100262,46.0,Female,Dwarka,Delhi,Business Owner,131600.0,Mass Affluent
+C100263,52.0,Female,Pune,Maharashtra,Business Owner,227500.0,Mass
+C100264,29.0,Female,Mumbai,Maharashtra,Salaried,103300.0,Mass
+C100265,58.0,Female,Pune,Maharashtra,Salaried,93000.0,Mass
+C100266,40.0,Female,Siliguri,West Bengal,Salaried,110900.0,Mass
+C100267,44.0,Female,Dwarka,Delhi,Self-employed,68200.0,SME
+C100268,33.0,Male,Hyderabad,Telangana,Self-employed,63500.0,Mass Affluent
+C100269,33.0,Male,Kolkata,West Bengal,Salaried,61700.0,Mass
+C100270,53.0,Female,Chennai,Tamil Nadu,Self-employed,44300.0,Affluent
+C100271,37.0,Female,Kolkata,West Bengal,Contract,43700.0,Mass Affluent
+C100272,38.0,Female,Coimbatore,Tamil Nadu,Salaried,54400.0,Mass
+C100273,50.0,Male,Warangal,Telangana,Salaried,85300.0,Mass Affluent
+C100274,56.0,Female,Ahmedabad,Gujarat,Salaried,62800.0,Mass
+C100275,24.0,Female,Pune,Maharashtra,Salaried,26800.0,Mass Affluent
+C100276,37.0,Male,Ahmedabad,Gujarat,Salaried,64100.0,Mass Affluent
+C100277,39.0,Male,Surat,Gujarat,Contract,88400.0,Mass
+C100278,57.0,Male,Siliguri,West Bengal,Salaried,27700.0,Mass Affluent
+C100279,64.0,Female,Hyderabad,Telangana,Salaried,45000.0,Mass
+C100280,38.0,Male,Dwarka,Delhi,Contract,47100.0,Mass
+C100281,43.0,Male,Bengaluru,Karnataka,Salaried,34900.0,Affluent
+C100282,48.0,Female,Ahmedabad,Gujarat,Salaried,49500.0,Mass
+C100283,50.0,Male,New Delhi,Delhi,Salaried,65000.0,Affluent
+C100284,36.0,Male,Surat,Gujarat,Salaried,35000.0,Mass Affluent
+C100285,47.0,Male,Mumbai,Maharashtra,Salaried,72400.0,Mass Affluent
+C100286,32.0,Female,Coimbatore,Tamil Nadu,Self-employed,93900.0,Mass Affluent
+C100287,21.0,Male,Ahmedabad,Gujarat,Self-employed,44200.0,Mass
+C100288,25.0,Male,Hyderabad,Telangana,Self-employed,79200.0,Mass
+C100289,41.0,Female,Surat,Gujarat,Self-employed,127200.0,SME
+C100290,47.0,Female,Hyderabad,Telangana,Self-employed,72300.0,Mass Affluent
+C100291,21.0,Male,Ahmedabad,Gujarat,Salaried,,Mass
+C100292,21.0,Female,Surat,Gujarat,Self-employed,104600.0,Mass Affluent
+C100293,39.0,Female,Surat,Gujarat,Self-employed,70500.0,SME
+C100294,21.0,Male,Warangal,Telangana,Salaried,99100.0,Affluent
+C100295,45.0,Male,Bengaluru,Karnataka,Salaried,75800.0,Mass Affluent
+C100296,49.0,Male,Pune,Maharashtra,Salaried,40800.0,Mass Affluent
+C100297,21.0,Female,Ahmedabad,Gujarat,Contract,59600.0,Mass Affluent
+C100298,47.0,Male,Coimbatore,Tamil Nadu,Salaried,94200.0,Mass
+C100299,37.0,Female,Bengaluru,Karnataka,Salaried,91700.0,Mass Affluent
+C100300,53.0,Male,Mumbai,Maharashtra,Business Owner,84600.0,Affluent
+C100301,42.0,Male,Pune,Maharashtra,Business Owner,139000.0,Mass
+C100302,37.0,Female,Mumbai,Maharashtra,Contract,87600.0,Mass
+C100303,40.0,Female,Chennai,Tamil Nadu,Self-employed,87300.0,Mass Affluent
+C100304,49.0,Female,Coimbatore,Tamil Nadu,Salaried,109000.0,Affluent
+C100305,41.0,Male,New Delhi,Delhi,Salaried,115000.0,Affluent
+C100306,40.0,Female,Warangal,Telangana,Self-employed,77600.0,SME
+C100307,25.0,Male,Coimbatore,Tamil Nadu,Self-employed,106200.0,SME
+C100308,44.0,Female,New Delhi,Delhi,Contract,41500.0,Mass
+C100309,40.0,Male,Hyderabad,Telangana,Salaried,103700.0,Mass Affluent
+C100310,58.0,Female,Hyderabad,Telangana,Business Owner,109000.0,Mass Affluent
+C100311,39.0,Female,Warangal,Telangana,Salaried,50100.0,Mass Affluent
+C100312,38.0,Male,Mumbai,Maharashtra,Salaried,63500.0,Mass
+C100313,33.0,Female,Bengaluru,Karnataka,Contract,45900.0,Mass
+C100314,47.0,Male,Ahmedabad,Gujarat,Salaried,76300.0,Mass
+C100315,37.0,Female,Warangal,Telangana,Self-employed,97500.0,Mass Affluent
+C100316,32.0,Female,Chennai,Tamil Nadu,Contract,,Mass
+C100317,55.0,Female,Chennai,Tamil Nadu,Self-employed,59000.0,Mass
+C100318,57.0,Female,Siliguri,West Bengal,Self-employed,93100.0,Mass
+C100319,35.0,Male,Ahmedabad,Gujarat,Business Owner,141300.0,Mass Affluent
+C100320,29.0,Female,Chennai,Tamil Nadu,Retired,43200.0,Mass
+C100321,51.0,Male,Coimbatore,Tamil Nadu,Contract,155500.0,Mass
+C100322,31.0,Male,Mumbai,Maharashtra,Salaried,106600.0,Affluent
+C100323,68.0,Male,Surat,Gujarat,Salaried,62300.0,Mass
+C100324,38.0,Male,Warangal,Telangana,Salaried,89500.0,Mass
+C100325,49.0,Male,Coimbatore,Tamil Nadu,Salaried,117900.0,Mass
+C100326,26.0,Male,Warangal,Telangana,Business Owner,134700.0,Mass Affluent
+C100327,39.0,Male,Dwarka,Delhi,Contract,21800.0,Mass
+C100328,50.0,Male,New Delhi,Delhi,Salaried,67600.0,Mass Affluent
+C100329,44.0,Male,Warangal,Telangana,Salaried,66200.0,Mass
+C100330,34.0,Male,Surat,Gujarat,Salaried,169100.0,Mass Affluent
+C100331,64.0,Female,Dwarka,Delhi,Business Owner,50100.0,Mass
+C100332,47.0,Female,Coimbatore,Tamil Nadu,Business Owner,230100.0,Mass
+C100333,37.0,Male,Mysuru,Karnataka,Salaried,60500.0,SME
+C100334,33.0,Female,Chennai,Tamil Nadu,Self-employed,121500.0,Affluent
+C100335,37.0,Female,Kolkata,West Bengal,Contract,42100.0,Mass
+C100336,53.0,Female,Mysuru,Karnataka,Contract,51900.0,Mass
+C100337,32.0,Female,Pune,Maharashtra,Salaried,108200.0,Mass Affluent
+C100338,40.0,Male,Warangal,Telangana,Business Owner,,Mass Affluent
+C100339,31.0,Male,Chennai,Tamil Nadu,Business Owner,185100.0,Mass Affluent
+C100340,52.0,Male,Pune,Maharashtra,Contract,46400.0,SME
+C100341,38.0,Female,New Delhi,Delhi,Salaried,54200.0,Mass
+C100342,48.0,Female,Ahmedabad,Gujarat,Salaried,59100.0,SME
+C100343,45.0,Male,Pune,Maharashtra,Salaried,52000.0,Mass Affluent
+C100344,34.0,Female,Dwarka,Delhi,Salaried,61800.0,SME
+C100345,47.0,Male,Bengaluru,Karnataka,Salaried,120500.0,SME
+C100346,49.0,Female,Hyderabad,Telangana,Business Owner,68200.0,Mass
+C100347,28.0,Female,Ahmedabad,Gujarat,Self-employed,38100.0,Mass Affluent
+C100348,47.0,Female,Ahmedabad,Gujarat,Business Owner,114600.0,Affluent
+C100349,68.0,Female,Ahmedabad,Gujarat,Self-employed,171700.0,Affluent
+C100350,37.0,Male,Chennai,Tamil Nadu,Salaried,104700.0,Mass
+C100351,46.0,Male,Warangal,Telangana,Salaried,118600.0,Mass Affluent
+C100352,26.0,Female,Warangal,Telangana,Salaried,114900.0,Mass
+C100353,44.0,Female,Siliguri,West Bengal,Contract,34800.0,Affluent
+C100354,34.0,Female,Warangal,Telangana,Self-employed,85000.0,Mass
+C100355,47.0,Male,Surat,Gujarat,Business Owner,35000.0,Mass
+C100356,39.0,Female,Pune,Maharashtra,Self-employed,61300.0,Mass
+C100357,28.0,Male,Coimbatore,Tamil Nadu,Business Owner,152400.0,Mass Affluent
+C100358,51.0,Male,Chennai,Tamil Nadu,Retired,21000.0,Mass
+C100359,37.0,Female,Warangal,Telangana,Business Owner,45900.0,Mass Affluent
+C100360,29.0,Male,Kolkata,West Bengal,Contract,27000.0,Affluent
+C100361,40.0,Male,Coimbatore,Tamil Nadu,Retired,46800.0,Mass Affluent
+C100362,30.0,Female,Dwarka,Delhi,Business Owner,196600.0,Affluent
+C100363,44.0,Female,Surat,Gujarat,Business Owner,372600.0,Affluent
+C100364,39.0,Male,Mysuru,Karnataka,Salaried,125300.0,Mass Affluent
+C100365,36.0,Male,Coimbatore,Tamil Nadu,Salaried,33300.0,Mass
+C100366,46.0,Female,Bengaluru,Karnataka,Contract,18000.0,SME
+C100367,27.0,Male,Bengaluru,Karnataka,Salaried,70600.0,Mass Affluent
+C100368,49.0,Female,Warangal,Telangana,Salaried,106300.0,Mass
+C100369,21.0,Male,Kolkata,West Bengal,Salaried,31900.0,Mass
+C100370,56.0,Male,Mysuru,Karnataka,Self-employed,64300.0,Mass Affluent
+C100371,41.0,Male,Warangal,Telangana,Salaried,54100.0,Mass
+C100372,37.0,Male,Hyderabad,Telangana,Business Owner,119000.0,Mass Affluent
+C100373,32.0,Female,Ahmedabad,Gujarat,Salaried,61200.0,Mass
+C100374,45.0,Female,Warangal,Telangana,Business Owner,148200.0,Mass
+C100375,38.0,Male,Dwarka,Delhi,Contract,79000.0,Mass
+C100376,38.0,Male,Pune,Maharashtra,Business Owner,121500.0,Affluent
+C100377,50.0,Male,Ahmedabad,Gujarat,Salaried,93300.0,Affluent
+C100378,35.0,Female,Mysuru,Karnataka,Self-employed,201100.0,Mass
+C100379,37.0,Female,New Delhi,Delhi,Contract,31100.0,Mass Affluent
+C100380,44.0,Female,Kolkata,West Bengal,Business Owner,73700.0,Mass
+C100381,50.0,Female,Dwarka,Delhi,Salaried,84000.0,Mass
+C100382,38.0,Male,Chennai,Tamil Nadu,Salaried,153800.0,SME
+C100383,41.0,Male,Mumbai,Maharashtra,Contract,53200.0,Mass
+C100384,40.0,Female,Mysuru,Karnataka,Self-employed,134700.0,Mass Affluent
+C100385,47.0,Female,New Delhi,Delhi,Salaried,58300.0,Affluent
+C100386,55.0,Male,Ahmedabad,Gujarat,Self-employed,124600.0,Mass Affluent
+C100387,30.0,Male,Ahmedabad,Gujarat,Self-employed,62300.0,Mass
+C100388,38.0,Male,Mysuru,Karnataka,Salaried,91000.0,Mass Affluent
+C100389,39.0,Male,Hyderabad,Telangana,Contract,59300.0,Affluent
+C100390,46.0,Female,Warangal,Telangana,Salaried,80300.0,Mass Affluent
+C100391,55.0,Female,Ahmedabad,Gujarat,Salaried,125100.0,Mass
+C100392,39.0,Female,New Delhi,Delhi,Salaried,109000.0,Affluent
+C100393,42.0,Male,Dwarka,Delhi,Salaried,51500.0,Mass
+C100394,51.0,Male,Coimbatore,Tamil Nadu,Contract,74300.0,Mass
+C100395,27.0,Female,Kolkata,West Bengal,Self-employed,38700.0,Mass
+C100396,32.0,Female,New Delhi,Delhi,Salaried,105600.0,SME
+C100397,35.0,Female,Mumbai,Maharashtra,Salaried,233500.0,Mass
+C100398,39.0,Female,New Delhi,Delhi,Salaried,86100.0,Mass
+C100399,42.0,Male,Siliguri,West Bengal,Business Owner,151000.0,Mass
+C100400,34.0,Male,Surat,Gujarat,Contract,51600.0,Mass
+C100401,57.0,Female,Coimbatore,Tamil Nadu,Salaried,99000.0,Mass
+C100402,32.0,Male,Siliguri,West Bengal,Self-employed,68500.0,SME
+C100403,37.0,Female,Mumbai,Maharashtra,Salaried,92300.0,SME
+C100404,51.0,Female,Ahmedabad,Gujarat,Salaried,60400.0,Mass
+C100405,47.0,Female,Hyderabad,Telangana,Business Owner,100000.0,Mass
+C100406,39.0,Male,Pune,Maharashtra,Retired,46800.0,Mass
+C100407,43.0,Female,New Delhi,Delhi,Salaried,66700.0,SME
+C100408,48.0,Female,Coimbatore,Tamil Nadu,Self-employed,38600.0,Mass
+C100409,39.0,Male,Chennai,Tamil Nadu,Salaried,174700.0,Affluent
+C100410,46.0,Female,Bengaluru,Karnataka,Salaried,73100.0,Mass Affluent
+C100411,30.0,Male,Ahmedabad,Gujarat,Self-employed,39400.0,Affluent
+C100412,40.0,Female,Surat,Gujarat,Salaried,111600.0,Mass
+C100413,23.0,Female,Mumbai,Maharashtra,Business Owner,120000.0,SME
+C100414,30.0,Male,Surat,Gujarat,Business Owner,133300.0,SME
+C100415,28.0,Female,Hyderabad,Telangana,Salaried,94500.0,Mass
+C100416,52.0,Male,Bengaluru,Karnataka,Self-employed,56600.0,SME
+C100417,35.0,Male,Chennai,Tamil Nadu,Salaried,18300.0,Affluent
+C100418,42.0,Male,Bengaluru,Karnataka,Business Owner,116300.0,Mass
+C100419,30.0,Male,New Delhi,Delhi,Salaried,76700.0,Mass Affluent
+C100420,37.0,Male,Pune,Maharashtra,Business Owner,191000.0,Mass
+C100421,37.0,Female,Dwarka,Delhi,Self-employed,60200.0,Affluent
+C100422,31.0,Male,Pune,Maharashtra,Self-employed,75100.0,Mass
+C100423,48.0,Male,Mumbai,Maharashtra,Salaried,82300.0,Affluent
+C100424,22.0,Female,Ahmedabad,Gujarat,Contract,44000.0,Mass
+C100425,46.0,Male,New Delhi,Delhi,Salaried,61500.0,Affluent
+C100426,66.0,Female,Chennai,Tamil Nadu,Business Owner,136500.0,Affluent
+C100427,31.0,Male,Kolkata,West Bengal,Salaried,43900.0,Affluent
+C100428,40.0,Female,Chennai,Tamil Nadu,Salaried,140300.0,Mass
+C100429,23.0,Male,Bengaluru,Karnataka,Business Owner,80300.0,Mass Affluent
+C100430,39.0,Male,Siliguri,West Bengal,Salaried,69900.0,Mass Affluent
+C100431,22.0,Female,Mumbai,Maharashtra,Business Owner,104900.0,Mass
+C100432,46.0,Female,Siliguri,West Bengal,Salaried,50000.0,SME
+C100433,34.0,Male,Mumbai,Maharashtra,Business Owner,154700.0,SME
+C100434,21.0,Male,Ahmedabad,Gujarat,Business Owner,191600.0,Mass Affluent
+C100435,26.0,Female,Dwarka,Delhi,Contract,97700.0,Affluent
+C100436,23.0,Male,Mumbai,Maharashtra,Salaried,89300.0,Mass
+C100437,36.0,Male,Siliguri,West Bengal,Salaried,56100.0,Mass
+C100438,48.0,Male,Chennai,Tamil Nadu,Retired,65400.0,Mass
+C100439,35.0,Male,Mumbai,Maharashtra,Self-employed,44100.0,Mass Affluent
+C100440,27.0,Male,Surat,Gujarat,Salaried,70200.0,Affluent
+C100441,30.0,Male,Kolkata,West Bengal,Business Owner,153600.0,Affluent
+C100442,40.0,Male,Mysuru,Karnataka,Salaried,88400.0,Mass
+C100443,21.0,Female,New Delhi,Delhi,Retired,26400.0,Affluent
+C100444,45.0,Female,Siliguri,West Bengal,Business Owner,61800.0,Affluent
+C100445,43.0,Male,Mumbai,Maharashtra,Self-employed,178000.0,Mass Affluent
+C100446,21.0,Female,Surat,Gujarat,Salaried,54300.0,Mass Affluent
+C100447,51.0,Female,Chennai,Tamil Nadu,Business Owner,57600.0,Mass Affluent
+C100448,22.0,Female,Pune,Maharashtra,Contract,28900.0,Mass
+C100449,36.0,Female,Mysuru,Karnataka,Business Owner,121500.0,Mass
+C100450,51.0,Male,Kolkata,West Bengal,Contract,85600.0,Mass Affluent
+C100451,22.0,Male,Hyderabad,Telangana,Salaried,68100.0,Mass Affluent
+C100452,21.0,Female,Kolkata,West Bengal,Business Owner,206800.0,Mass Affluent
+C100453,27.0,Female,New Delhi,Delhi,Contract,55600.0,Mass Affluent
+C100454,27.0,Female,Pune,Maharashtra,Salaried,84100.0,Affluent
+C100455,37.0,Male,Coimbatore,Tamil Nadu,Salaried,105800.0,Mass
+C100456,33.0,Male,Coimbatore,Tamil Nadu,Self-employed,70600.0,Mass
+C100457,33.0,Female,Mysuru,Karnataka,Salaried,,SME
+C100458,34.0,Female,Mumbai,Maharashtra,Salaried,56900.0,Mass Affluent
+C100459,37.0,Female,Siliguri,West Bengal,Contract,37600.0,Mass Affluent
+C100460,30.0,Male,Pune,Maharashtra,Contract,67200.0,Mass Affluent
+C100461,42.0,Female,Surat,Gujarat,Self-employed,57600.0,Mass Affluent
+C100462,38.0,Female,Ahmedabad,Gujarat,Business Owner,124100.0,Mass
+C100463,28.0,Female,New Delhi,Delhi,Self-employed,58300.0,Mass Affluent
+C100464,57.0,Male,Hyderabad,Telangana,Salaried,64900.0,Affluent
+C100465,25.0,Male,Chennai,Tamil Nadu,Salaried,53200.0,Mass
+C100466,46.0,Female,New Delhi,Delhi,Salaried,110400.0,SME
+C100467,31.0,Male,Surat,Gujarat,Self-employed,86000.0,Mass
+C100468,42.0,Female,Dwarka,Delhi,Self-employed,85800.0,Mass Affluent
+C100469,44.0,Female,Siliguri,West Bengal,Salaried,141200.0,Affluent
+C100470,47.0,Female,Ahmedabad,Gujarat,Salaried,18300.0,Mass
+C100471,53.0,Male,Pune,Maharashtra,Salaried,40600.0,Mass Affluent
+C100472,30.0,Male,Kolkata,West Bengal,Salaried,19500.0,Mass Affluent
+C100473,68.0,Female,Mysuru,Karnataka,Contract,49200.0,Mass Affluent
+C100474,43.0,Male,Bengaluru,Karnataka,Salaried,81300.0,Affluent
+C100475,30.0,Male,Coimbatore,Tamil Nadu,Salaried,89100.0,Mass
+C100476,25.0,Female,Surat,Gujarat,Self-employed,92500.0,Mass
+C100477,63.0,Male,Dwarka,Delhi,Salaried,44900.0,Affluent
+C100478,55.0,Female,Surat,Gujarat,Self-employed,180100.0,SME
+C100479,38.0,Female,Pune,Maharashtra,Self-employed,93800.0,Mass
+C100480,46.0,Male,Ahmedabad,Gujarat,Salaried,59000.0,Mass Affluent
+C100481,52.0,Female,Mumbai,Maharashtra,Contract,29600.0,Mass
+C100482,40.0,Male,Mysuru,Karnataka,Self-employed,98500.0,SME
+C100483,34.0,Female,Mysuru,Karnataka,Salaried,53100.0,SME
+C100484,38.0,Female,Ahmedabad,Gujarat,Retired,34900.0,Mass Affluent
+C100485,47.0,Female,Chennai,Tamil Nadu,Salaried,72600.0,Mass Affluent
+C100486,39.0,Female,Ahmedabad,Gujarat,Business Owner,128900.0,Mass Affluent
+C100487,26.0,Male,Ahmedabad,Gujarat,Self-employed,56200.0,Mass Affluent
+C100488,46.0,Male,Hyderabad,Telangana,Salaried,116000.0,Affluent
+C100489,21.0,Male,Hyderabad,Telangana,Salaried,42000.0,Affluent
+C100490,31.0,Male,Kolkata,West Bengal,Self-employed,49100.0,Affluent
+C100491,51.0,Male,Mumbai,Maharashtra,Salaried,75700.0,Affluent
+C100492,41.0,Male,Warangal,Telangana,Salaried,69700.0,Mass
+C100493,41.0,Male,Pune,Maharashtra,Salaried,67900.0,Mass
+C100494,40.0,Male,Warangal,Telangana,Salaried,54700.0,Mass Affluent
+C100495,49.0,Male,Dwarka,Delhi,Business Owner,118600.0,Mass Affluent
+C100496,38.0,Male,Kolkata,West Bengal,Salaried,51000.0,SME
+C100497,21.0,Female,Siliguri,West Bengal,Salaried,31300.0,Mass
+C100498,41.0,Female,Pune,Maharashtra,Contract,67500.0,Mass
+C100499,21.0,Female,Kolkata,West Bengal,Salaried,41600.0,Affluent
+C100500,21.0,Female,Bengaluru,Karnataka,Self-employed,72900.0,Mass Affluent
+C100501,55.0,Female,Chennai,Tamil Nadu,Self-employed,112200.0,Mass
+C100502,49.0,Female,Dwarka,Delhi,Retired,42900.0,Mass
+C100503,34.0,Female,Kolkata,West Bengal,Salaried,225300.0,SME
+C100504,38.0,Female,Chennai,Tamil Nadu,Contract,25800.0,Affluent
+C100505,40.0,Female,Siliguri,West Bengal,Salaried,46800.0,Affluent
+C100506,49.0,Female,Chennai,Tamil Nadu,Salaried,68200.0,Mass
+C100507,31.0,Male,Coimbatore,Tamil Nadu,Self-employed,148500.0,Affluent
+C100508,30.0,Male,Kolkata,West Bengal,Salaried,58600.0,Mass
+C100509,32.0,Female,Surat,Gujarat,Self-employed,42300.0,Mass
+C100510,40.0,Male,Hyderabad,Telangana,Self-employed,134800.0,Mass Affluent
+C100511,41.0,Female,Coimbatore,Tamil Nadu,Salaried,43200.0,Mass Affluent
+C100512,35.0,Male,Mumbai,Maharashtra,Business Owner,105900.0,Mass Affluent
+C100513,46.0,Male,Bengaluru,Karnataka,Salaried,97300.0,SME
+C100514,28.0,Male,Chennai,Tamil Nadu,Retired,31300.0,Mass
+C100515,38.0,Male,Warangal,Telangana,Salaried,53400.0,Mass
+C100516,32.0,Female,Kolkata,West Bengal,Salaried,81400.0,Mass
+C100517,28.0,Female,Mumbai,Maharashtra,Self-employed,73400.0,Affluent
+C100518,51.0,Male,Pune,Maharashtra,Salaried,74300.0,Affluent
+C100519,35.0,Male,Warangal,Telangana,Salaried,42700.0,Affluent
+C100520,28.0,Female,Mysuru,Karnataka,Contract,45700.0,Mass Affluent
+C100521,39.0,Female,Ahmedabad,Gujarat,Salaried,39900.0,Mass
+C100522,28.0,Female,Warangal,Telangana,Salaried,32400.0,Mass
+C100523,45.0,Female,Siliguri,West Bengal,Salaried,143700.0,Mass
+C100524,47.0,Male,Dwarka,Delhi,Self-employed,98500.0,Mass
+C100525,49.0,Female,Dwarka,Delhi,Business Owner,,Mass
+C100526,28.0,Female,Ahmedabad,Gujarat,Business Owner,74600.0,Mass Affluent
+C100527,37.0,Male,Mumbai,Maharashtra,Salaried,64300.0,Mass
+C100528,58.0,Female,Bengaluru,Karnataka,Salaried,,Mass Affluent
+C100529,37.0,Female,Kolkata,West Bengal,Salaried,34400.0,SME
+C100530,52.0,Male,Mumbai,Maharashtra,Salaried,83300.0,Mass
+C100531,54.0,Male,Siliguri,West Bengal,Salaried,47100.0,Mass
+C100532,25.0,Female,Hyderabad,Telangana,Contract,43900.0,Mass
+C100533,51.0,Female,Kolkata,West Bengal,Salaried,32900.0,Mass
+C100534,46.0,Female,Mysuru,Karnataka,Salaried,101800.0,Mass Affluent
+C100535,48.0,Female,Hyderabad,Telangana,Self-employed,112800.0,Mass Affluent
+C100536,56.0,Female,Mumbai,Maharashtra,Salaried,77700.0,Mass Affluent
+C100537,43.0,Male,Hyderabad,Telangana,Salaried,,SME
+C100538,40.0,Male,Pune,Maharashtra,Retired,33000.0,Mass Affluent
+C100539,45.0,Male,Chennai,Tamil Nadu,Contract,83300.0,Mass Affluent
+C100540,35.0,Female,Chennai,Tamil Nadu,Salaried,57500.0,Affluent
+C100541,44.0,Male,Mysuru,Karnataka,Contract,54200.0,Affluent
+C100542,21.0,Female,New Delhi,Delhi,Salaried,69400.0,Mass Affluent
+C100543,56.0,Female,Coimbatore,Tamil Nadu,Self-employed,48400.0,Mass Affluent
+C100544,33.0,Female,Mumbai,Maharashtra,Self-employed,159100.0,Mass
+C100545,44.0,Female,Ahmedabad,Gujarat,Business Owner,47200.0,Mass Affluent
+C100546,42.0,Female,Bengaluru,Karnataka,Salaried,72000.0,Mass Affluent
+C100547,40.0,Male,Coimbatore,Tamil Nadu,Salaried,62600.0,Mass Affluent
+C100548,40.0,Female,Coimbatore,Tamil Nadu,Business Owner,55600.0,Mass
+C100549,39.0,Male,Warangal,Telangana,Salaried,75600.0,Mass Affluent
+C100550,22.0,Female,Surat,Gujarat,Salaried,82300.0,Mass
+C100551,33.0,Female,New Delhi,Delhi,Business Owner,117900.0,Mass
+C100552,51.0,Male,Pune,Maharashtra,Business Owner,79400.0,Mass
+C100553,28.0,Female,New Delhi,Delhi,Retired,51500.0,Affluent
+C100554,28.0,Female,Warangal,Telangana,Salaried,107500.0,Mass
+C100555,60.0,Female,Siliguri,West Bengal,Self-employed,,SME
+C100556,51.0,Male,Siliguri,West Bengal,Salaried,141500.0,Mass
+C100557,55.0,Male,Bengaluru,Karnataka,Salaried,95900.0,Mass Affluent
+C100558,39.0,Male,Mysuru,Karnataka,Salaried,92100.0,Mass
+C100559,41.0,Male,Dwarka,Delhi,Salaried,121800.0,Mass Affluent
+C100560,47.0,Female,Bengaluru,Karnataka,Salaried,48400.0,Affluent
+C100561,44.0,Male,Bengaluru,Karnataka,Salaried,51500.0,Mass Affluent
+C100562,38.0,Male,Mysuru,Karnataka,Contract,60700.0,Mass Affluent
+C100563,24.0,Male,Siliguri,West Bengal,Salaried,82300.0,SME
+C100564,31.0,Male,Warangal,Telangana,Salaried,128500.0,Mass Affluent
+C100565,23.0,Male,Dwarka,Delhi,Contract,80600.0,Mass
+C100566,55.0,Female,New Delhi,Delhi,Business Owner,124800.0,Mass
+C100567,35.0,Female,Chennai,Tamil Nadu,Business Owner,127300.0,Affluent
+C100568,37.0,Male,New Delhi,Delhi,Contract,42600.0,Mass Affluent
+C100569,42.0,Female,Mysuru,Karnataka,Business Owner,98000.0,Mass
+C100570,39.0,Female,Mumbai,Maharashtra,Salaried,53300.0,Mass Affluent
+C100571,44.0,Male,Hyderabad,Telangana,Retired,63400.0,Mass
+C100572,32.0,Male,New Delhi,Delhi,Salaried,,Affluent
+C100573,23.0,Female,Chennai,Tamil Nadu,Contract,41200.0,Affluent
+C100574,56.0,Male,Dwarka,Delhi,Salaried,70300.0,Affluent
+C100575,31.0,Female,Mumbai,Maharashtra,Salaried,52000.0,Mass Affluent
+C100576,34.0,Female,Surat,Gujarat,Salaried,59100.0,Mass
+C100577,30.0,Male,Mumbai,Maharashtra,Salaried,24500.0,Affluent
+C100578,33.0,Female,Dwarka,Delhi,Contract,57300.0,Mass Affluent
+C100579,39.0,Female,Coimbatore,Tamil Nadu,Business Owner,101200.0,Affluent
+C100580,46.0,Female,Surat,Gujarat,Business Owner,126800.0,Affluent
+C100581,28.0,Female,Hyderabad,Telangana,Salaried,77700.0,Affluent
+C100582,41.0,Female,Bengaluru,Karnataka,Salaried,28600.0,Affluent
+C100583,32.0,Male,Dwarka,Delhi,Salaried,194700.0,Affluent
+C100584,51.0,Male,Warangal,Telangana,Business Owner,125900.0,Mass Affluent
+C100585,26.0,Male,Kolkata,West Bengal,Salaried,72100.0,Mass
+C100586,39.0,Female,New Delhi,Delhi,Salaried,,Mass
+C100587,46.0,Male,Siliguri,West Bengal,Salaried,88800.0,Affluent
+C100588,25.0,Female,Chennai,Tamil Nadu,Contract,59900.0,Affluent
+C100589,39.0,Female,Kolkata,West Bengal,Contract,42500.0,Mass
+C100590,40.0,Female,Siliguri,West Bengal,Salaried,75900.0,Mass
+C100591,30.0,Female,Ahmedabad,Gujarat,Contract,89700.0,Affluent
+C100592,36.0,Female,Ahmedabad,Gujarat,Salaried,58900.0,Mass
+C100593,48.0,Male,New Delhi,Delhi,Business Owner,80900.0,Mass Affluent
+C100594,41.0,Male,Kolkata,West Bengal,Salaried,125400.0,Mass Affluent
+C100595,34.0,Male,New Delhi,Delhi,Salaried,77800.0,Mass Affluent
+C100596,36.0,Male,Hyderabad,Telangana,Self-employed,78600.0,Affluent
+C100597,43.0,Female,Chennai,Tamil Nadu,Salaried,195200.0,Mass Affluent
+C100598,51.0,Male,Warangal,Telangana,Salaried,74500.0,SME
+C100599,46.0,Female,Chennai,Tamil Nadu,Self-employed,79000.0,Mass Affluent
+C100600,46.0,Female,New Delhi,Delhi,Business Owner,138500.0,Mass Affluent
+C100601,54.0,Male,Pune,Maharashtra,Retired,37500.0,Mass
+C100602,23.0,Male,Pune,Maharashtra,Salaried,76500.0,Affluent
+C100603,24.0,Male,Surat,Gujarat,Salaried,74200.0,Mass
+C100604,21.0,Male,Kolkata,West Bengal,Salaried,51600.0,Mass
+C100605,47.0,Male,Mysuru,Karnataka,Salaried,61700.0,Mass Affluent
+C100606,21.0,Female,Pune,Maharashtra,Salaried,79700.0,Mass Affluent
+C100607,38.0,Male,Mumbai,Maharashtra,Salaried,82200.0,SME
+C100608,46.0,Male,Ahmedabad,Gujarat,Business Owner,159100.0,SME
+C100609,24.0,Male,Dwarka,Delhi,Salaried,98400.0,SME
+C100610,31.0,Male,Bengaluru,Karnataka,Self-employed,95100.0,Affluent
+C100611,35.0,Female,Surat,Gujarat,Salaried,87100.0,Mass
+C100612,46.0,Male,New Delhi,Delhi,Salaried,58100.0,Affluent
+C100613,23.0,Male,Dwarka,Delhi,Self-employed,75600.0,Mass
+C100614,41.0,Male,Mumbai,Maharashtra,Salaried,109900.0,Mass
+C100615,45.0,Male,Coimbatore,Tamil Nadu,Salaried,28300.0,SME
+C100616,40.0,Female,Ahmedabad,Gujarat,Salaried,81200.0,Mass Affluent
+C100617,40.0,Female,Warangal,Telangana,Self-employed,350300.0,SME
+C100618,51.0,Female,Dwarka,Delhi,Contract,22000.0,Mass
+C100619,40.0,Male,Bengaluru,Karnataka,Salaried,134300.0,Mass Affluent
+C100620,38.0,Male,Hyderabad,Telangana,Salaried,31000.0,Mass
+C100621,35.0,Male,Mumbai,Maharashtra,Self-employed,98600.0,Mass Affluent
+C100622,45.0,Male,Siliguri,West Bengal,Salaried,141000.0,SME
+C100623,35.0,Male,Warangal,Telangana,Salaried,132200.0,Mass Affluent
+C100624,45.0,Female,Surat,Gujarat,Retired,29000.0,Mass
+C100625,39.0,Male,Dwarka,Delhi,Salaried,37500.0,Mass
+C100626,49.0,Female,Coimbatore,Tamil Nadu,Contract,26000.0,Mass
+C100627,30.0,Female,Siliguri,West Bengal,Self-employed,114100.0,Mass Affluent
+C100628,39.0,Male,Mumbai,Maharashtra,Salaried,56200.0,Affluent
+C100629,42.0,Male,Chennai,Tamil Nadu,Salaried,67100.0,SME
+C100630,42.0,Male,Surat,Gujarat,Salaried,75100.0,Mass
+C100631,49.0,Female,Ahmedabad,Gujarat,Self-employed,98800.0,Mass
+C100632,42.0,Male,Mysuru,Karnataka,Contract,62600.0,Mass
+C100633,47.0,Male,Pune,Maharashtra,Salaried,70400.0,Mass
+C100634,58.0,Male,Siliguri,West Bengal,Salaried,32300.0,Mass
+C100635,47.0,Male,Mumbai,Maharashtra,Salaried,128000.0,Mass
+C100636,27.0,Male,Surat,Gujarat,Salaried,,Affluent
+C100637,24.0,Male,Warangal,Telangana,Salaried,115800.0,Mass
+C100638,45.0,Female,Mumbai,Maharashtra,Retired,32700.0,Mass
+C100639,34.0,Male,Mysuru,Karnataka,Business Owner,107400.0,Mass
+C100640,41.0,Male,Bengaluru,Karnataka,Contract,38700.0,Affluent
+C100641,36.0,Male,Mumbai,Maharashtra,Self-employed,69100.0,Mass Affluent
+C100642,51.0,Female,Warangal,Telangana,Business Owner,116100.0,Mass
+C100643,50.0,Male,Mumbai,Maharashtra,Business Owner,103300.0,Mass Affluent
+C100644,27.0,Male,Coimbatore,Tamil Nadu,Salaried,40400.0,Mass Affluent
+C100645,41.0,Male,Chennai,Tamil Nadu,Self-employed,119400.0,Mass Affluent
+C100646,35.0,Female,Mumbai,Maharashtra,Salaried,51000.0,Mass Affluent
+C100647,25.0,Male,Coimbatore,Tamil Nadu,Salaried,121000.0,Mass
+C100648,45.0,Female,Hyderabad,Telangana,Business Owner,109200.0,Mass Affluent
+C100649,37.0,Female,Dwarka,Delhi,Salaried,48100.0,Mass Affluent
+C100650,42.0,Male,New Delhi,Delhi,Salaried,80500.0,Mass
+C100651,63.0,Female,Kolkata,West Bengal,Contract,72800.0,Mass
+C100652,51.0,Female,Bengaluru,Karnataka,Salaried,43600.0,Mass
+C100653,49.0,Male,Chennai,Tamil Nadu,Salaried,58200.0,Mass
+C100654,34.0,Female,Hyderabad,Telangana,Salaried,125600.0,Mass Affluent
+C100655,26.0,Female,Mysuru,Karnataka,Salaried,42200.0,Mass Affluent
+C100656,51.0,Male,Chennai,Tamil Nadu,Contract,33300.0,Affluent
+C100657,35.0,Male,Hyderabad,Telangana,Salaried,71200.0,Affluent
+C100658,38.0,Female,Warangal,Telangana,Contract,28300.0,Mass Affluent
+C100659,34.0,Male,Pune,Maharashtra,Salaried,21800.0,Mass
+C100660,39.0,Female,Coimbatore,Tamil Nadu,Contract,23000.0,Mass
+C100661,62.0,Male,Coimbatore,Tamil Nadu,Contract,57800.0,Mass Affluent
+C100662,35.0,Male,Coimbatore,Tamil Nadu,Self-employed,109200.0,Mass
+C100663,35.0,Female,Coimbatore,Tamil Nadu,Business Owner,152600.0,Mass Affluent
+C100664,40.0,Male,Ahmedabad,Gujarat,Salaried,78800.0,Mass
+C100665,41.0,Male,Chennai,Tamil Nadu,Salaried,37900.0,Affluent
+C100666,26.0,Female,Warangal,Telangana,Self-employed,110300.0,Mass
+C100667,21.0,Male,Pune,Maharashtra,Salaried,111000.0,Mass Affluent
+C100668,32.0,Male,Surat,Gujarat,Salaried,48300.0,Mass
+C100669,36.0,Male,Dwarka,Delhi,Self-employed,124300.0,Mass
+C100670,30.0,Female,Chennai,Tamil Nadu,Business Owner,99200.0,Mass Affluent
+C100671,28.0,Male,Warangal,Telangana,Contract,53200.0,Mass Affluent
+C100672,28.0,Male,Surat,Gujarat,Salaried,78000.0,Affluent
+C100673,34.0,Male,Ahmedabad,Gujarat,Contract,25000.0,Mass
+C100674,37.0,Male,Kolkata,West Bengal,Self-employed,157400.0,Affluent
+C100675,22.0,Female,Siliguri,West Bengal,Self-employed,55400.0,Mass
+C100676,32.0,Female,Surat,Gujarat,Salaried,63200.0,Mass
+C100677,41.0,Female,Chennai,Tamil Nadu,Contract,39100.0,SME
+C100678,37.0,Male,Ahmedabad,Gujarat,Salaried,81300.0,Mass Affluent
+C100679,24.0,Male,Hyderabad,Telangana,Salaried,80400.0,Mass
+C100680,34.0,Male,Chennai,Tamil Nadu,Business Owner,118200.0,Mass Affluent
+C100681,38.0,Male,New Delhi,Delhi,Self-employed,153900.0,Affluent
+C100682,45.0,Female,Pune,Maharashtra,Business Owner,133000.0,Affluent
+C100683,21.0,Female,Bengaluru,Karnataka,Salaried,55300.0,Mass
+C100684,45.0,Male,Pune,Maharashtra,Salaried,18100.0,Mass Affluent
+C100685,33.0,Female,Kolkata,West Bengal,Self-employed,71800.0,Mass
+C100686,40.0,Male,Kolkata,West Bengal,Business Owner,102800.0,Mass
+C100687,45.0,Female,Ahmedabad,Gujarat,Self-employed,55100.0,Mass Affluent
+C100688,29.0,Male,Mysuru,Karnataka,Self-employed,55300.0,Mass
+C100689,30.0,Male,Siliguri,West Bengal,Self-employed,106400.0,Affluent
+C100690,37.0,Female,Mysuru,Karnataka,Salaried,106000.0,Mass
+C100691,45.0,Male,Surat,Gujarat,Salaried,155300.0,Mass Affluent
+C100692,32.0,Female,Ahmedabad,Gujarat,Salaried,110700.0,Mass
+C100693,24.0,Female,Siliguri,West Bengal,Business Owner,85200.0,Mass Affluent
+C100694,31.0,Female,Ahmedabad,Gujarat,Self-employed,91500.0,Mass Affluent
+C100695,41.0,Female,Pune,Maharashtra,Business Owner,63400.0,SME
+C100696,49.0,Female,Mumbai,Maharashtra,Business Owner,162800.0,Mass Affluent
+C100697,33.0,Male,Mumbai,Maharashtra,Contract,57400.0,Mass
+C100698,34.0,Male,Kolkata,West Bengal,Contract,37100.0,Mass
+C100699,36.0,Female,Bengaluru,Karnataka,Salaried,63100.0,Mass Affluent
+C100700,36.0,Male,Surat,Gujarat,Self-employed,72800.0,SME
+C100701,28.0,Female,Chennai,Tamil Nadu,Salaried,49700.0,Mass Affluent
+C100702,33.0,Male,Kolkata,West Bengal,Salaried,120000.0,SME
+C100703,40.0,Female,Hyderabad,Telangana,Salaried,267800.0,Mass
+C100704,39.0,Female,Mumbai,Maharashtra,Contract,70900.0,Mass Affluent
+C100705,38.0,Male,New Delhi,Delhi,Business Owner,188600.0,Affluent
+C100706,28.0,Male,Warangal,Telangana,Salaried,71200.0,Affluent
+C100707,32.0,Female,New Delhi,Delhi,Salaried,56600.0,Mass
+C100708,30.0,Female,Mysuru,Karnataka,Business Owner,314800.0,Mass
+C100709,48.0,Female,Ahmedabad,Gujarat,Retired,36300.0,Affluent
+C100710,52.0,Male,Hyderabad,Telangana,Salaried,79200.0,Mass Affluent
+C100711,41.0,Male,Mumbai,Maharashtra,Salaried,62800.0,Mass
+C100712,53.0,Female,Mysuru,Karnataka,Business Owner,152900.0,Mass Affluent
+C100713,35.0,Female,Warangal,Telangana,Self-employed,79800.0,Mass Affluent
+C100714,35.0,Male,Mumbai,Maharashtra,Business Owner,153100.0,Mass
+C100715,25.0,Female,Mumbai,Maharashtra,Salaried,37500.0,Mass Affluent
+C100716,40.0,Female,Coimbatore,Tamil Nadu,Self-employed,77900.0,Mass Affluent
+C100717,33.0,Female,Mysuru,Karnataka,Business Owner,217200.0,SME
+C100718,39.0,Female,Chennai,Tamil Nadu,Salaried,41600.0,Mass Affluent
+C100719,42.0,Female,Ahmedabad,Gujarat,Salaried,49100.0,Mass Affluent
+C100720,35.0,Female,Mysuru,Karnataka,Salaried,122800.0,Mass
+C100721,26.0,Male,Hyderabad,Telangana,Business Owner,140600.0,Mass
+C100722,37.0,Male,Hyderabad,Telangana,Salaried,107200.0,Mass Affluent
+C100723,37.0,Male,Chennai,Tamil Nadu,Salaried,24200.0,Mass Affluent
+C100724,38.0,Female,Pune,Maharashtra,Self-employed,87000.0,Mass
+C100725,44.0,Male,Chennai,Tamil Nadu,Contract,27500.0,Mass Affluent
+C100726,36.0,Male,Coimbatore,Tamil Nadu,Contract,26100.0,Mass
+C100727,35.0,Female,Ahmedabad,Gujarat,Salaried,79700.0,Mass
+C100728,55.0,Female,Pune,Maharashtra,Self-employed,138900.0,Mass Affluent
+C100729,48.0,Male,Mysuru,Karnataka,Salaried,33800.0,Mass
+C100730,37.0,Female,Surat,Gujarat,Contract,29700.0,Mass Affluent
+C100731,28.0,Male,Pune,Maharashtra,Business Owner,90000.0,Mass Affluent
+C100732,33.0,Female,Hyderabad,Telangana,Self-employed,76900.0,Mass
+C100733,41.0,Female,Bengaluru,Karnataka,Business Owner,64300.0,Mass Affluent
+C100734,46.0,Female,Dwarka,Delhi,Self-employed,225400.0,SME
+C100735,62.0,Female,Pune,Maharashtra,Self-employed,106100.0,Affluent
+C100736,35.0,Female,Mysuru,Karnataka,Salaried,56200.0,Mass
+C100737,39.0,Male,Surat,Gujarat,Business Owner,92600.0,Mass Affluent
+C100738,34.0,Female,Siliguri,West Bengal,Salaried,188500.0,Mass
+C100739,39.0,Male,Pune,Maharashtra,Self-employed,223400.0,Affluent
+C100740,34.0,Female,Kolkata,West Bengal,Salaried,53000.0,Affluent
+C100741,27.0,Female,Kolkata,West Bengal,Salaried,77200.0,Mass
+C100742,48.0,Female,Hyderabad,Telangana,Self-employed,143400.0,Mass
+C100743,39.0,Female,Mysuru,Karnataka,Self-employed,47600.0,Mass Affluent
+C100744,51.0,Male,Hyderabad,Telangana,Self-employed,62300.0,Mass Affluent
+C100745,33.0,Male,Chennai,Tamil Nadu,Salaried,121300.0,Mass Affluent
+C100746,41.0,Female,Coimbatore,Tamil Nadu,Self-employed,59300.0,Affluent
+C100747,44.0,Female,Warangal,Telangana,Self-employed,66700.0,Affluent
+C100748,21.0,Female,Bengaluru,Karnataka,Self-employed,44100.0,Mass Affluent
+C100749,25.0,Female,Coimbatore,Tamil Nadu,Salaried,46700.0,Mass
+C100750,45.0,Male,Kolkata,West Bengal,Salaried,89700.0,Affluent
+C100751,39.0,Female,Coimbatore,Tamil Nadu,Self-employed,55800.0,Mass
+C100752,21.0,Female,Warangal,Telangana,Salaried,36400.0,Mass Affluent
+C100753,31.0,Male,Pune,Maharashtra,Contract,36500.0,Mass Affluent
+C100754,28.0,Female,Surat,Gujarat,Salaried,146300.0,Affluent
+C100755,33.0,Female,Coimbatore,Tamil Nadu,Salaried,71100.0,Mass Affluent
+C100756,53.0,Female,Hyderabad,Telangana,Salaried,50900.0,Mass Affluent
+C100757,32.0,Male,Mumbai,Maharashtra,Salaried,70300.0,SME
+C100758,58.0,Male,Bengaluru,Karnataka,Contract,59100.0,Affluent
+C100759,36.0,Female,Mysuru,Karnataka,Retired,44700.0,Mass
+C100760,31.0,Female,Mumbai,Maharashtra,Business Owner,51200.0,SME
+C100761,54.0,Male,Siliguri,West Bengal,Self-employed,92200.0,Mass Affluent
+C100762,47.0,Male,New Delhi,Delhi,Contract,43900.0,Mass
+C100763,52.0,Female,Mysuru,Karnataka,Salaried,95800.0,Mass
+C100764,57.0,Male,Mysuru,Karnataka,Salaried,35500.0,Mass Affluent
+C100765,49.0,Female,Mysuru,Karnataka,Salaried,105100.0,Mass Affluent
+C100766,50.0,Female,Mysuru,Karnataka,Salaried,52200.0,Affluent
+C100767,21.0,Male,Warangal,Telangana,Contract,22300.0,Mass Affluent
+C100768,30.0,Male,New Delhi,Delhi,Self-employed,146700.0,Mass Affluent
+C100769,43.0,Female,Kolkata,West Bengal,Self-employed,63600.0,Mass
+C100770,40.0,Female,Surat,Gujarat,Self-employed,95100.0,Mass Affluent
+C100771,45.0,Female,Coimbatore,Tamil Nadu,Self-employed,74600.0,Mass
+C100772,34.0,Male,Chennai,Tamil Nadu,Self-employed,131600.0,Mass
+C100773,49.0,Male,Chennai,Tamil Nadu,Salaried,107500.0,Mass Affluent
+C100774,58.0,Male,Surat,Gujarat,Self-employed,132900.0,Mass
+C100775,44.0,Female,Ahmedabad,Gujarat,Salaried,,Mass Affluent
+C100776,47.0,Female,Dwarka,Delhi,Salaried,31300.0,Affluent
+C100777,43.0,Female,Ahmedabad,Gujarat,Self-employed,37400.0,Mass
+C100778,48.0,Male,Warangal,Telangana,Salaried,71200.0,Mass
+C100779,41.0,Female,Hyderabad,Telangana,Salaried,42200.0,Affluent
+C100780,33.0,Male,Ahmedabad,Gujarat,Business Owner,142100.0,Mass Affluent
+C100781,40.0,Female,Mysuru,Karnataka,Salaried,70100.0,Affluent
+C100782,40.0,Female,Warangal,Telangana,Salaried,34200.0,Mass
+C100783,23.0,Male,Mysuru,Karnataka,Business Owner,71900.0,Mass Affluent
+C100784,41.0,Female,Pune,Maharashtra,Salaried,38900.0,Mass
+C100785,39.0,Male,Ahmedabad,Gujarat,Salaried,43400.0,Mass
+C100786,41.0,Female,Pune,Maharashtra,Contract,43700.0,Affluent
+C100787,33.0,Male,Hyderabad,Telangana,Salaried,88500.0,Mass
+C100788,43.0,Male,Mysuru,Karnataka,Business Owner,211000.0,Affluent
+C100789,45.0,Male,Kolkata,West Bengal,Business Owner,74000.0,Affluent
+C100790,31.0,Female,Mumbai,Maharashtra,Salaried,50300.0,Affluent
+C100791,42.0,Male,Surat,Gujarat,Salaried,131500.0,Mass
+C100792,46.0,Female,Siliguri,West Bengal,Contract,72000.0,Affluent
+C100793,46.0,Female,Chennai,Tamil Nadu,Salaried,72200.0,Mass
+C100794,29.0,Male,Kolkata,West Bengal,Salaried,22400.0,Mass Affluent
+C100795,28.0,Male,Mumbai,Maharashtra,Contract,30300.0,Mass
+C100796,39.0,Female,Siliguri,West Bengal,Salaried,69800.0,Affluent
+C100797,28.0,Female,Kolkata,West Bengal,Retired,32100.0,Mass
+C100798,63.0,Female,Mysuru,Karnataka,Self-employed,197300.0,Mass Affluent
+C100799,30.0,Female,Hyderabad,Telangana,Self-employed,83300.0,Mass Affluent
